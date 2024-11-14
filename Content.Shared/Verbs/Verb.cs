@@ -94,7 +94,7 @@ namespace Content.Shared.Verbs
         ///     Optional informative message.
         /// </summary>
         /// <remarks>
-        ///     This will be shown as a tooltip when hovering over this verb in the context menu. Additionally, iF a
+        ///     This will be shown as a tooltip when hovering over this verb in the context menu. Additionally, if a
         ///     <see cref="Disabled"/> verb is executed, this message will also be shown as a pop-up message. Useful for
         ///     disabled verbs to inform users about why they cannot perform a given action.
         /// </remarks>

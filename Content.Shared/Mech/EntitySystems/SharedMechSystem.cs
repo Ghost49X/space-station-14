@@ -417,8 +417,7 @@ public abstract class SharedMechSystem : EntitySystem
             args.Cancel();
     }
 
-    private void UpdateAppearance(EntityUid uid, MechComponent? component = null,
-        AppearanceComponent? appearance = null)
+    private void UpdateAppearance(EntityUid uid, MechComponent? component = null, AppearanceComponent? appearance = null)
     {
         if (!Resolve(uid, ref component, ref appearance, false))
             return;
